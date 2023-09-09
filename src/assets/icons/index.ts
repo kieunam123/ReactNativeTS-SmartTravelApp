@@ -1,0 +1,38 @@
+/* eslint-disable global-require */
+const icons = {
+  back: require('./back.png'),
+  approved: require('./approved.png'),
+  bill: require('./bill.png'),
+  clockwise: require('./clockwise.png'),
+  rejected: require('./rejected.png'),
+  weighingMachine: require('./weighing-machine.png'),
+  packing: require('./packing.png'),
+  checkList: require('./checklist.png'),
+  scale: require('./scale.png'),
+  escPrinter: require('./escprinter.png'),
+  status: require('./status.png'),
+  partner: require('./partner.png'),
+  location: require('./location.png'),
+  note: require('./note.png'),
+  import: require('./import.png'),
+  export: require('./export.png'),
+  qrscan: require('./qrscan.jpg'),
+  camera: require('./camera.png'),
+  usermanual: require('./usermanual.png'),
+  support: require('./support.png'),
+  qrscanin: require('./qrscanin_green.png'),
+  qrscanout: require('./qrscanout_red.png'),
+  rocket: require('./rocket.png'),
+  chat: require('./chat.png'),
+  support2: require('./support2.png'),
+  text: require('./text.png'),
+  photo: require('./photo.png'),
+  image: require('./image.png'),
+  audio: require('./audio.png'),
+  mic: require('./mic.png'),
+  rec: require('./mic_rec.png'),
+  library: require('./library.png'),
+  chatgpt: require('./chatgpt.jpeg')
+};
+
+export default icons;
